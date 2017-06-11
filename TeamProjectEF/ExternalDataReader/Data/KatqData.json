@@ -1,0 +1,23 @@
+﻿{
+    "AccountID": 25,
+    "Nickname": "Kateto",
+    "IdentityCard": {
+        "EGN": 621111,
+        "FirstName": "Katq",
+        "MiddleName": "Mileva",
+        "LastName": "Todorova",
+        "Address": {
+            "AddressText": "Levski",
+            "Town": {
+                "Name": "Varna"
+            }
+        },
+        "Age": 55,
+        "AgeType": {
+            "Type": "adult"
+        }
+    },
+    "Person": {
+        "Nickname": "Kateto"
+    }
+}

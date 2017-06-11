@@ -5,3 +5,12 @@ c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.M
 c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\obj\Debug\TeamProject.Models.pdb
 c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\bin\Debug\Test.dll
 c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\bin\Debug\Test.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\bin\Debug\TeamProject.Models.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\bin\Debug\TeamProject.Models.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\bin\Debug\Test.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\bin\Debug\Test.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\obj\Debug\TeamProject.Models.csprojResolveAssemblyReference.cache
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\obj\Debug\TeamProject.Models.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\obj\Debug\TeamProject.Models.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProject.Models\bin\Debug\Newtonsoft.Json.xml

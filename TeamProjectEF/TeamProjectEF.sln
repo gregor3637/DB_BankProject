@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamProject.Models", "TeamP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{9E7655C7-2C94-449C-A128-3CBD71D27520}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalDataReader", "ExternalDataReader\ExternalDataReader.csproj", "{BD7F8E04-181F-40F6-8F78-3FCAA17BBD44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9E7655C7-2C94-449C-A128-3CBD71D27520}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E7655C7-2C94-449C-A128-3CBD71D27520}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E7655C7-2C94-449C-A128-3CBD71D27520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD7F8E04-181F-40F6-8F78-3FCAA17BBD44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD7F8E04-181F-40F6-8F78-3FCAA17BBD44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD7F8E04-181F-40F6-8F78-3FCAA17BBD44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD7F8E04-181F-40F6-8F78-3FCAA17BBD44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,9 @@
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\obj\Debug\ExternalDataReader.csprojResolveAssemblyReference.cache
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\bin\Debug\ExternalDataReader.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\bin\Debug\ExternalDataReader.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\bin\Debug\TeamProject.Models.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\bin\Debug\TeamProject.Models.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\obj\Debug\ExternalDataReader.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\ExternalDataReader\obj\Debug\ExternalDataReader.pdb

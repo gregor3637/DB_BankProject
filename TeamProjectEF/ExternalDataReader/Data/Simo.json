@@ -1,0 +1,23 @@
+﻿{
+    "AccountID": 4,
+    "Nickname": "Simo",
+    "IdentityCard": {
+        "EGN": 830505,
+        "FirstName": "Simeon",
+        "MiddleName": "Ivanov",
+        "LastName": "Georgiev",
+        "Address": {
+            "AddressText": "Mladost 1",
+            "Town": {
+                "Name": "Sofia"
+            }
+        },
+        "Age": 34,
+        "AgeType": {
+            "Type": "adult"
+        }
+    },
+    "Person": {
+        "Nickname": "Simo"
+    }
+}

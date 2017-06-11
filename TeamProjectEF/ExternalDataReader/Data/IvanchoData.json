@@ -1,0 +1,23 @@
+﻿{
+    "AccountID": 33,
+    "Nickname": "Ivancho",
+    "IdentityCard": {
+        "EGN": 991212,
+        "FirstName": "Ivan",
+        "MiddleName": "Simeonov",
+        "LastName": "Georgiev",
+        "Address": {
+            "AddressText": "Mladost 1",
+            "Town": {
+                "Name": "Sofia"
+            }
+        },
+        "Age": 17,
+        "AgeType": {
+            "Type": "teen"
+        },
+        "Person": {
+            "Nickname": "Ivancho"
+        }
+    }
+}

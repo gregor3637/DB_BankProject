@@ -17,9 +17,9 @@ namespace TeamProjectEF
 
         }
 
-        public DbSet<Person> Person { get; set; }
-        public DbSet<IdentityCard> IdentityCard { get; set; }
-        public DbSet<Town> Town { get; set; }
+        public DbSet<Person> Persons { get; set; }
+        public DbSet<IdentityCard> IdentityCards { get; set; }
+        public DbSet<Town> Towns { get; set; }
 
 
     }
