@@ -53,9 +53,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LibraryDbContext.cs" />
-    <Compile Include="Migrations\201706111653203_init.cs" />
-    <Compile Include="Migrations\201706111653203_init.Designer.cs">
-      <DependentUpon>201706111653203_init.cs</DependentUpon>
+    <Compile Include="Migrations\201706112219257_init.cs" />
+    <Compile Include="Migrations\201706112219257_init.Designer.cs">
+      <DependentUpon>201706112219257_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706112222216_second.cs" />
+    <Compile Include="Migrations\201706112222216_second.Designer.cs">
+      <DependentUpon>201706112222216_second.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Startup.cs" />
@@ -80,8 +84,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706111653203_init.resx">
-      <DependentUpon>201706111653203_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706112219257_init.resx">
+      <DependentUpon>201706112219257_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706112222216_second.resx">
+      <DependentUpon>201706112222216_second.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

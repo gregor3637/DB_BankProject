@@ -47,8 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Data\Simo.json" />
-    <None Include="Data\KatqData.json" />
+    <None Include="FinalData\Simo.json" />
+    <None Include="FinalData\KatqData.json" />
     <None Include="Data\IvanchoData.json" />
     <None Include="packages.config" />
   </ItemGroup>

@@ -15,9 +15,6 @@
         "Age": 17,
         "AgeType": {
             "Type": "teen"
-        },
-        "Person": {
-            "Nickname": "Ivancho"
         }
     }
 }

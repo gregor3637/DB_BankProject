@@ -20,6 +20,7 @@ namespace TeamProjectEF
         public DbSet<Person> Persons { get; set; }
         public DbSet<IdentityCard> IdentityCards { get; set; }
         public DbSet<Town> Towns { get; set; }
+        public DbSet<Address> Addresses { get; set; }
 
 
     }

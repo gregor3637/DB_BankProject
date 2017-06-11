@@ -13,7 +13,22 @@ namespace TeamProjectEF
     {
         static void Main()
         {
-            //var dbContext = new LibraryDbContext();
+            
+
+            //Console.WriteLine("Started !");
+
+            var fileReader = new CustomFileReader();
+            List<string> peopleData = fileReader.GetPeopleData();
+            List<Person> people = CreatePeople(peopleData);
+
+            var bp = "dasd";
+
+            var dbContext = new LibraryDbContext();
+            foreach (var person in people)
+            {
+                dbContext.Persons.Add(person);
+            }
+
             //dbContext.Persons.Add(new Person
             //{
             //    AccountID = 155,
@@ -40,15 +55,7 @@ namespace TeamProjectEF
 
             //});
 
-            //dbContext.SaveChanges();
-
-            //Console.WriteLine("Started !");
-
-            var fileReader = new CustomFileReader();
-            List<string> peopleData = fileReader.GetPeopleData();
-            List<Person> people = CreatePeople(peopleData);
-
-            var bp = "dasd";
+            dbContext.SaveChanges();
         }
 
         private static List<Person> CreatePeople(List<string> peopleData)

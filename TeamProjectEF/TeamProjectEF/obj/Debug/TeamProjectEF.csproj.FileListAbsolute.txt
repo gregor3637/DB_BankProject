@@ -29,9 +29,10 @@ C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\Enti
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csprojResolveAssemblyReference.cache
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.exe
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.pdb
-C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.init.resources
-C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csproj.GenerateResource.Cache
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\ExternalDataReader.dll
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\ExternalDataReader.pdb
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.init.resources
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csproj.GenerateResource.Cache
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.second.resources
