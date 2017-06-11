@@ -1,0 +1,17 @@
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProjectEF.exe.config
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProjectEF.exe
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProjectEF.pdb
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\EntityFramework.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProject.Models.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProject.Models.pdb
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\EntityFramework.xml
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csprojResolveAssemblyReference.cache
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.exe
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.pdb
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\Test.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF\bin\Debug\Test.pdb
+C:\Users\Misho\Documents\Visual Studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.init.resources
+C:\Users\Misho\Documents\Visual Studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csproj.GenerateResource.Cache
+C:\Users\Misho\Documents\Visual Studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.test.resources

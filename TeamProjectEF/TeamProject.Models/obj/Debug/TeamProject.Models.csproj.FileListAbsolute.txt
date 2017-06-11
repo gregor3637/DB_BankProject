@@ -1,0 +1,7 @@
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\bin\Debug\TeamProject.Models.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\bin\Debug\TeamProject.Models.pdb
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\obj\Debug\TeamProject.Models.csprojResolveAssemblyReference.cache
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\obj\Debug\TeamProject.Models.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\obj\Debug\TeamProject.Models.pdb
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\bin\Debug\Test.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProject.Models\bin\Debug\Test.pdb

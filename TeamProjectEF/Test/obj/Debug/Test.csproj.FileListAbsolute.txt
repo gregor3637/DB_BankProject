@@ -1,0 +1,5 @@
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\bin\Debug\Test.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\bin\Debug\Test.pdb
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\obj\Debug\Test.dll
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\obj\Debug\Test.pdb
+c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
