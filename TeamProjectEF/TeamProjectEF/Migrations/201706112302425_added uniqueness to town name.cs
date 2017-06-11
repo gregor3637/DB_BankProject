@@ -3,16 +3,16 @@ namespace TeamProjectEF.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class second : DbMigration
+    public partial class addeduniquenesstotownname : DbMigration
     {
         public override void Up()
         {
-            AddColumn("dbo.IdentityCards", "DistinctiveElements", c => c.String(storeType: "ntext"));
+            CreateIndex("dbo.Towns", "Name", unique: true);
         }
         
         public override void Down()
         {
-            DropColumn("dbo.IdentityCards", "DistinctiveElements");
+            DropIndex("dbo.Towns", new[] { "Name" });
         }
     }
 }

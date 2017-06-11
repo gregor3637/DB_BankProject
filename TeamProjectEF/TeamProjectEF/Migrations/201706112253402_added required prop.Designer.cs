@@ -7,13 +7,13 @@ namespace TeamProjectEF.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class init : IMigrationMetadata
+    public sealed partial class addedrequiredprop : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(init));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addedrequiredprop));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706112219257_init"; }
+            get { return "201706112253402_added required prop"; }
         }
         
         string IMigrationMetadata.Source

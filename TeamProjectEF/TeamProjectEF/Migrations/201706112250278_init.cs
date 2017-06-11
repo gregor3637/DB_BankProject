@@ -29,6 +29,7 @@ namespace TeamProjectEF.Migrations
                         MiddleName = c.String(maxLength: 40),
                         LastName = c.String(maxLength: 40),
                         Age = c.Int(nullable: false),
+                        DistinctiveElements = c.String(storeType: "ntext"),
                         Address_ID = c.Int(nullable: false),
                         AgeType_ID = c.Int(),
                     })
