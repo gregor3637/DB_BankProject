@@ -15,3 +15,19 @@ c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\TeamProjectEF
 C:\Users\Misho\Documents\Visual Studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.init.resources
 C:\Users\Misho\Documents\Visual Studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csproj.GenerateResource.Cache
 C:\Users\Misho\Documents\Visual Studio 2017\Projects\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.test.resources
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProjectEF.exe.config
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProjectEF.exe
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProjectEF.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\EntityFramework.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProject.Models.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\Test.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\TeamProject.Models.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\Test.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\EntityFramework.xml
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csprojResolveAssemblyReference.cache
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.exe
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.init.resources
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csproj.GenerateResource.Cache

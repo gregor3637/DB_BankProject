@@ -8,15 +8,6 @@ namespace TeamProjectEF.Migrations
         public override void Up()
         {
             CreateTable(
-                "dbo.AgeTypes",
-                c => new
-                    {
-                        ID = c.Int(nullable: false, identity: true),
-                        Type = c.String(),
-                    })
-                .PrimaryKey(t => t.ID);
-            
-            CreateTable(
                 "dbo.IdentityCards",
                 c => new
                     {
@@ -25,15 +16,47 @@ namespace TeamProjectEF.Migrations
                         FirstName = c.String(),
                         MiddleName = c.String(),
                         LastName = c.String(),
-                        AddressID = c.Int(nullable: false),
                         Age = c.Int(nullable: false),
+                        Address_ID = c.Int(),
                         AgeType_ID = c.Int(),
                     })
                 .PrimaryKey(t => t.ID)
+                .ForeignKey("dbo.Addresses", t => t.Address_ID)
                 .ForeignKey("dbo.AgeTypes", t => t.AgeType_ID)
                 .ForeignKey("dbo.People", t => t.ID)
                 .Index(t => t.ID)
+                .Index(t => t.Address_ID)
                 .Index(t => t.AgeType_ID);
+            
+            CreateTable(
+                "dbo.Addresses",
+                c => new
+                    {
+                        ID = c.Int(nullable: false, identity: true),
+                        AddressText = c.String(),
+                        Town_ID = c.Int(),
+                    })
+                .PrimaryKey(t => t.ID)
+                .ForeignKey("dbo.Towns", t => t.Town_ID)
+                .Index(t => t.Town_ID);
+            
+            CreateTable(
+                "dbo.Towns",
+                c => new
+                    {
+                        ID = c.Int(nullable: false, identity: true),
+                        Name = c.String(),
+                    })
+                .PrimaryKey(t => t.ID);
+            
+            CreateTable(
+                "dbo.AgeTypes",
+                c => new
+                    {
+                        ID = c.Int(nullable: false, identity: true),
+                        Type = c.String(),
+                    })
+                .PrimaryKey(t => t.ID);
             
             CreateTable(
                 "dbo.People",
@@ -50,11 +73,17 @@ namespace TeamProjectEF.Migrations
         {
             DropForeignKey("dbo.IdentityCards", "ID", "dbo.People");
             DropForeignKey("dbo.IdentityCards", "AgeType_ID", "dbo.AgeTypes");
+            DropForeignKey("dbo.Addresses", "Town_ID", "dbo.Towns");
+            DropForeignKey("dbo.IdentityCards", "Address_ID", "dbo.Addresses");
+            DropIndex("dbo.Addresses", new[] { "Town_ID" });
             DropIndex("dbo.IdentityCards", new[] { "AgeType_ID" });
+            DropIndex("dbo.IdentityCards", new[] { "Address_ID" });
             DropIndex("dbo.IdentityCards", new[] { "ID" });
             DropTable("dbo.People");
-            DropTable("dbo.IdentityCards");
             DropTable("dbo.AgeTypes");
+            DropTable("dbo.Towns");
+            DropTable("dbo.Addresses");
+            DropTable("dbo.IdentityCards");
         }
     }
 }
