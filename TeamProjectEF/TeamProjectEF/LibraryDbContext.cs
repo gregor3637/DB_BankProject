@@ -74,19 +74,19 @@ namespace TeamProjectEF
             modelBuilder.Entity<Town>()
                .HasKey(t => t.ID);
 
-            //modelBuilder.Entity<Town>()
-            //   .Property(t => t.Name)
-            //   .IsRequired()
-            //   .HasMaxLength(40)
-            //   .HasColumnAnnotation(
-            //        "Index",
-            //        new IndexAnnotation(
-            //            new IndexAttribute("IX_Name")
-            //            {
-            //                IsUnique = true
-            //            }
-            //        )
-            //    );
+            modelBuilder.Entity<Town>()
+               .Property(t => t.Name)
+               .IsRequired()
+               .HasMaxLength(40)
+               .HasColumnAnnotation(
+                    "Index",
+                    new IndexAnnotation(
+                        new IndexAttribute("IX_Name")
+                        {
+                            IsUnique = true
+                        }
+                    )
+                );
         }
     }
 }
