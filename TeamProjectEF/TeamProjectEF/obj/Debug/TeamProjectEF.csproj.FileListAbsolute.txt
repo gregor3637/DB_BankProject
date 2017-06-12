@@ -35,3 +35,6 @@ C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\Newt
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.init.resources
 C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.csproj.GenerateResource.Cache
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.another.resources
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.third.resources
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\TeamProjectEF\obj\Debug\TeamProjectEF.Migrations.changeegntype.resources

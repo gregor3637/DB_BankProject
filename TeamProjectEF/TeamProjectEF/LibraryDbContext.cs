@@ -42,7 +42,7 @@ namespace TeamProjectEF
         private void OnHobbyModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Hobby>()
-                .HasMany(x => x.Persons)
+                .HasMany(x => x.People)
                 .WithMany(x => x.Hobbies);
         }
 

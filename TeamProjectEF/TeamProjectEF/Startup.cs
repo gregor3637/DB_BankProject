@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using ExternalDataReader;
 using Newtonsoft.Json;
 using TeamProject.Models;
+using TeamProject.Models.CRUDActions;
 
 namespace TeamProjectEF
 {
@@ -16,10 +17,10 @@ namespace TeamProjectEF
 
             var dbContext = new LibraryDbContext();
 
-            //Console.WriteLine("Started !");
+            StartUserCommunication(dbContext);
 
 
-            var bp = 3;
+
             //var result = dbContext.Towns.Where(s => s.Name == "Sofiaaa").ToList();
             //Console.WriteLine(" ~~~~~~~~~~~~~ " + result);
 
@@ -48,12 +49,63 @@ namespace TeamProjectEF
             //    }
 
             //});
+        }
 
+        private static void StartUserCommunication(LibraryDbContext dbContext)
+        {
+            Console.WriteLine("Hello! Please select which CRUD operation you want to execute");
+            Console.WriteLine("1(Create) , 2 (Retrieve), 3 (Update), 4(Delete)");
+            var userOperationChoice = int.Parse(Console.ReadLine());
+
+            ProceedWithUserOperationChoice(userOperationChoice, dbContext);
+        }
+
+        private static void ProceedWithUserOperationChoice(int userOperationChoice, LibraryDbContext dbContext)
+        {
+            switch (userOperationChoice)
+            {
+                case 1:
+                    Create.User(dbContext);
+                    break;
+                case 2:
+                    ExecuterRetrieveSteps();
+                    break;
+                case 3:
+                    ExecuterUpdateSteps();
+                    break;
+                case 4:
+                    ExecuterDeleteSteps();
+                    break;
+
+                default: break;
+            }
+        }
+
+        private static void ExecuterDeleteSteps()
+        {
+           
+        }
+
+        private static void ExecuterUpdateSteps()
+        {
+            
+        }
+
+        private static void ExecuterRetrieveSteps()
+        {
+            
+        }
+
+        private static void ExecuteCreationSteps(LibraryDbContext dbContext)
+        {
+            
         }
 
         private static void CreatePeople(List<string> peopleData, LibraryDbContext dbContext)
         {   
             
         }
+
+        
     }
 }

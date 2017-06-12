@@ -11,13 +11,14 @@ namespace TeamProject.Models
     {
         public Hobby()
         {
-            this.Persons = new HashSet<Person>();
+            this.People = new HashSet<Person>();
         }
 
         [Key]
         public int ID { get; set; }
+        public String Name { get; set; }
 
-        public virtual ICollection<Person> Persons { get; set; }
+        public virtual ICollection<Person> People { get; set; }
     }
 
 
