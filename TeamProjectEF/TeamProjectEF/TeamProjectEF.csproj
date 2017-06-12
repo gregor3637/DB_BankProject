@@ -53,21 +53,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LibraryDbContext.cs" />
-    <Compile Include="Migrations\201706112250278_init.cs" />
-    <Compile Include="Migrations\201706112250278_init.Designer.cs">
-      <DependentUpon>201706112250278_init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706112253402_added required prop.cs" />
-    <Compile Include="Migrations\201706112253402_added required prop.Designer.cs">
-      <DependentUpon>201706112253402_added required prop.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706112259080_additional restrictions.cs" />
-    <Compile Include="Migrations\201706112259080_additional restrictions.Designer.cs">
-      <DependentUpon>201706112259080_additional restrictions.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706112302425_added uniqueness to town name.cs" />
-    <Compile Include="Migrations\201706112302425_added uniqueness to town name.Designer.cs">
-      <DependentUpon>201706112302425_added uniqueness to town name.cs</DependentUpon>
+    <Compile Include="Migrations\201706120020001_init.cs" />
+    <Compile Include="Migrations\201706120020001_init.Designer.cs">
+      <DependentUpon>201706120020001_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Startup.cs" />
@@ -92,17 +80,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706112250278_init.resx">
-      <DependentUpon>201706112250278_init.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706112253402_added required prop.resx">
-      <DependentUpon>201706112253402_added required prop.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706112259080_additional restrictions.resx">
-      <DependentUpon>201706112259080_additional restrictions.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706112302425_added uniqueness to town name.resx">
-      <DependentUpon>201706112302425_added uniqueness to town name.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706120020001_init.resx">
+      <DependentUpon>201706120020001_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

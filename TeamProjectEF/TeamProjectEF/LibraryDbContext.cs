@@ -27,13 +27,23 @@ namespace TeamProjectEF
 
         public DbSet<Address> Addresses { get; set; }
 
+        public DbSet<Hobby> Hobbies { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             this.OnAddressModelCreating(modelBuilder);
             this.OnAgeTypeModelCreating(modelBuilder);
             this.OnTownModelCreating(modelBuilder);
+            this.OnHobbyModelCreating(modelBuilder);
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        private void OnHobbyModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Hobby>()
+                .HasMany(x => x.Persons)
+                .WithMany(x => x.Hobbies);
         }
 
         private void OnAddressModelCreating(DbModelBuilder modelBuilder)
@@ -50,19 +60,19 @@ namespace TeamProjectEF
 
         private void OnAgeTypeModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<AgeType>()
-               .HasKey(a => a.ID);
+            //modelBuilder.Entity<AgeType>()
+            //   .HasKey(a => a.ID);
 
-            modelBuilder.Entity<AgeType>()
-               .Property(a => a.Type)
-               .IsRequired()
-               .HasMaxLength(40);
+            //modelBuilder.Entity<AgeType>()
+            //   .Property(a => a.Type)
+            //   .IsRequired()
+            //   .HasMaxLength(40);
         }
 
         private void OnTownModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Town>()
-               .HasKey(t => t.ID);
+            //modelBuilder.Entity<Town>()
+            //   .HasKey(t => t.ID);
 
             modelBuilder.Entity<Town>()
                .Property(t => t.Name)

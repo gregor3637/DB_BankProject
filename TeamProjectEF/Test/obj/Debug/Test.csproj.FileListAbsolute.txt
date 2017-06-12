@@ -3,3 +3,8 @@ c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\bin\Debu
 c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\obj\Debug\Test.dll
 c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\obj\Debug\Test.pdb
 c:\users\misho\documents\visual studio 2017\Projects\TeamProjectEF\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\Test\bin\Debug\Test.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\Test\bin\Debug\Test.pdb
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\Test\obj\Debug\Test.dll
+C:\Users\Misho\Desktop\DB_BankProject\TeamProjectEF\Test\obj\Debug\Test.pdb

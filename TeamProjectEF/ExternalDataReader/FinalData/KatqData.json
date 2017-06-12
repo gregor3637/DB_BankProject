@@ -16,8 +16,5 @@
         "AgeType": {
             "Type": "adult"
         }
-    },
-    "Person": {
-        "Nickname": "Kateto"
     }
 }
