@@ -18,9 +18,6 @@ namespace TeamProjectEF
 
             //Console.WriteLine("Started !");
 
-            var fileReader = new CustomFileReader();
-            List<string> peopleData = fileReader.GetPeopleData();
-            CreatePeople(peopleData, dbContext);
 
             var bp = 3;
             //var result = dbContext.Towns.Where(s => s.Name == "Sofiaaa").ToList();
@@ -56,20 +53,7 @@ namespace TeamProjectEF
 
         private static void CreatePeople(List<string> peopleData, LibraryDbContext dbContext)
         {   
-            List<Person> people = new List<Person>();
-            foreach (var dataOfPerson in peopleData)
-            {
-                Person person = JsonConvert.DeserializeObject<Person>(dataOfPerson);
-                var sameNamedCities = dbContext.Towns.Where(s => s.Name == person.IdentityCard.Address.Town.Name).ToList();
-
-                if(sameNamedCities.Count > 0)
-                {
-                    person.IdentityCard.Address.Town = sameNamedCities[0];
-                }
-               
-                dbContext.Persons.Add(person);
-                dbContext.SaveChanges();
-            }
+            
         }
     }
 }
