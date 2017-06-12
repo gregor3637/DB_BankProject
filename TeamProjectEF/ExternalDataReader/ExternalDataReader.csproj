@@ -47,8 +47,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FinalData\Simo.json" />
-    <None Include="FinalData\KatqData.json" />
+    <None Include="Data\Simo.json" />
+    <None Include="Data\KatqData.json" />
     <None Include="Data\IvanchoData.json" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -58,6 +58,8 @@
       <Name>TeamProject.Models</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="FinalData\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

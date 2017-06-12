@@ -46,7 +46,7 @@ namespace TeamProjectEF.Migrations
                 c => new
                     {
                         ID = c.Int(nullable: false, identity: true),
-                        Type = c.String(),
+                        Type = c.String(nullable: false, maxLength: 40),
                     })
                 .PrimaryKey(t => t.ID);
             
@@ -73,10 +73,9 @@ namespace TeamProjectEF.Migrations
                 c => new
                     {
                         ID = c.Int(nullable: false, identity: true),
-                        Name = c.String(nullable: false, maxLength: 40),
+                        Name = c.String(),
                     })
-                .PrimaryKey(t => t.ID)
-                .Index(t => t.Name, unique: true);
+                .PrimaryKey(t => t.ID);
             
             CreateTable(
                 "dbo.HobbyPersons",
@@ -103,7 +102,6 @@ namespace TeamProjectEF.Migrations
             DropForeignKey("dbo.IdentityCards", "Address_ID", "dbo.Addresses");
             DropIndex("dbo.HobbyPersons", new[] { "Person_ID" });
             DropIndex("dbo.HobbyPersons", new[] { "Hobby_ID" });
-            DropIndex("dbo.Towns", new[] { "Name" });
             DropIndex("dbo.IdentityCards", new[] { "AgeType_ID" });
             DropIndex("dbo.IdentityCards", new[] { "Address_ID" });
             DropIndex("dbo.IdentityCards", new[] { "ID" });

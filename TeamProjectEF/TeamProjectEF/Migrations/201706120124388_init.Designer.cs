@@ -13,7 +13,7 @@ namespace TeamProjectEF.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201706120020001_init"; }
+            get { return "201706120124388_init"; }
         }
         
         string IMigrationMetadata.Source

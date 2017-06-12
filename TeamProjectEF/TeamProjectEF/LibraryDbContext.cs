@@ -60,33 +60,33 @@ namespace TeamProjectEF
 
         private void OnAgeTypeModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<AgeType>()
-            //   .HasKey(a => a.ID);
+            modelBuilder.Entity<AgeType>()
+               .HasKey(a => a.ID);
 
-            //modelBuilder.Entity<AgeType>()
-            //   .Property(a => a.Type)
-            //   .IsRequired()
-            //   .HasMaxLength(40);
+            modelBuilder.Entity<AgeType>()
+               .Property(a => a.Type)
+               .IsRequired()
+               .HasMaxLength(40);
         }
 
         private void OnTownModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Town>()
-            //   .HasKey(t => t.ID);
-
             modelBuilder.Entity<Town>()
-               .Property(t => t.Name)
-               .IsRequired()
-               .HasMaxLength(40)
-               .HasColumnAnnotation(
-                    "Index",
-                    new IndexAnnotation(
-                        new IndexAttribute("IX_Name")
-                        {
-                            IsUnique = true
-                        }
-                    )
-                );
+               .HasKey(t => t.ID);
+
+            //modelBuilder.Entity<Town>()
+            //   .Property(t => t.Name)
+            //   .IsRequired()
+            //   .HasMaxLength(40)
+            //   .HasColumnAnnotation(
+            //        "Index",
+            //        new IndexAnnotation(
+            //            new IndexAttribute("IX_Name")
+            //            {
+            //                IsUnique = true
+            //            }
+            //        )
+            //    );
         }
     }
 }
